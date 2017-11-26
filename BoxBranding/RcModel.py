@@ -155,7 +155,7 @@ class RcModel:
 			remotefolder = 'iqon3'
 		elif boxtype in ('lunix34k','lunix'):
 			remotefolder = 'qviart1'
-		elif boxtype in ('formuler1', 'formuler3', 'formuler4', 'formuler4turbo', 'formuler1tc', 'formuler3ip', 'formuler4ip'):
+		elif boxtype in ('formuler1', 'formuler3', 'formuler4', 'meeloplusturbo', 'formuler4turbo', 'formuler1tc', 'formuler3ip', 'formuler4ip'):
 			remotefolder = 'formuler1'
 		elif boxtype in ('triplex', 'ultrabox'):
 			remotefolder = 'triplex'
