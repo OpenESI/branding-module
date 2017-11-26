@@ -202,6 +202,7 @@ AM_CONDITIONAL(INI, test `echo "$BRAND_OEM" | cut -b 1-3` == "ini")
 AM_CONDITIONAL(XP, test `echo "$BRAND_OEM"` == "xp")
 AM_CONDITIONAL(SKYLAKE, test `echo "$BRAND_OEM"` == "skylake")
 AM_CONDITIONAL(FORMULER, test `echo "$BRAND_OEM"` == "formuler")
+AM_CONDITIONAL(MEELO+, test `echo "$BRAND_OEM"` == "meeloplusturbo")
 AM_CONDITIONAL(TRIPLEDOT, test `echo "$BRAND_OEM"` == "tripledot")
 AM_CONDITIONAL(HARDKERNEL, test `echo "$BRAND_OEM"` == "hardkernel")
 AM_CONDITIONAL(WETEK, test `echo "$BRAND_OEM"` == "wetek")
@@ -288,7 +289,7 @@ AM_CONDITIONAL(BRE2ZE, test "$BOXTYPE" == bre2ze)
 AM_CONDITIONAL(BRE2ZET2C, test "$BOXTYPE" == bre2zet2c)
 AM_CONDITIONAL(BRE2ZE4K, test "$BOXTYPE" == bre2ze4k)
 AM_CONDITIONAL(TRIPLEX, test "$BOXTYPE" == triplex)
-AM_CONDITIONAL(FORMULER1, test "$BOXTYPE" == formuler1)
+AM_CONDITIONAL(MEELOPLUSTURBO, test "$BOXTYPE" == meeloplusturbo)
 AM_CONDITIONAL(FORMULER3, test "$BOXTYPE" == formuler3)
 AM_CONDITIONAL(GBIPBOX, test "$BOXTYPE" == gbipbox)
 AM_CONDITIONAL(GBX1, test "$BOXTYPE" == gbx1)
@@ -421,7 +422,7 @@ BoxBranding/remotes/et7x00mini/Makefile
 BoxBranding/remotes/et8000/Makefile
 BoxBranding/remotes/et9500/Makefile
 BoxBranding/remotes/et9x00/Makefile
-BoxBranding/remotes/formuler1/Makefile
+BoxBranding/remotes/meeloplusturbo/Makefile
 BoxBranding/remotes/fulan/Makefile
 BoxBranding/remotes/g300/Makefile
 BoxBranding/remotes/gb0/Makefile
@@ -447,6 +448,7 @@ BoxBranding/remotes/hdbox/Makefile
 BoxBranding/remotes/ixussone/Makefile
 BoxBranding/remotes/ixusszero/Makefile
 BoxBranding/remotes/miraclebox/Makefile
+BoxBranding/remotes/megasat1/Makefile
 BoxBranding/remotes/megasat1/Makefile
 BoxBranding/remotes/megasat2/Makefile
 BoxBranding/remotes/mediabox/Makefile
